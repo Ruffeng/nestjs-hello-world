@@ -1,5 +1,5 @@
 import { Body, Controller, Get, Param, Post } from '@nestjs/common';
-import { CreateCatDto } from './create-cats.dto';
+import { CreateCatDto } from './dto/create-cats.dto';
 import { CatsService } from './cats.service';
 import { Cat } from './interfaces/cat.interface';
 
